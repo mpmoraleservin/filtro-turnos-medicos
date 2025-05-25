@@ -1,0 +1,74 @@
+[
+    {
+      "id_cita": "C001",
+      "fecha_cita": "2025-05-26",
+      "especialidad": "Cardiología",
+      "tipo_atencion": "Primera Consulta",
+      "rut_profesional": "12345678-9",
+      "nombre_profesional": "Dr. Juan Pérez",
+      "estado_cita": "Agendada",
+      "rut_paciente": "20123456-7",
+      "nombre_paciente": "Ana Gómez",
+      "edad_paciente": 45
+    },
+    {
+      "id_cita": "C002",
+      "fecha_cita": "2025-05-27",
+      "especialidad": "Pediatría",
+      "tipo_atencion": "Control",
+      "rut_profesional": "98765432-1",
+      "nombre_profesional": "Dra. Laura Díaz",
+      "estado_cita": "Agendada",
+      "rut_paciente": "25987654-3",
+      "nombre_paciente": "Diego Torres",
+      "edad_paciente": 8
+    },
+    {
+      "id_cita": "C004",
+      "fecha_cita": "2025-05-29",
+      "especialidad": "Cardiología",
+      "tipo_atencion": "Primera Consulta",
+      "rut_profesional": "22222222-2",
+      "nombre_profesional": "Dr. Roberto Silva",
+      "estado_cita": "Agendada",
+      "rut_paciente": "30456789-1",
+      "nombre_paciente": "María López",
+      "edad_paciente": 58
+    },
+    {
+      "id_cita": "C005",
+      "fecha_cita": "2025-05-24",
+      "especialidad": "Traumatología",
+      "tipo_atencion": "Consulta",
+      "rut_profesional": "33333333-3",
+      "nombre_profesional": "Dr. Carlos Mendoza",
+      "estado_cita": "Confirmada",
+      "rut_paciente": "40567890-2",
+      "nombre_paciente": "Luis Herrera",
+      "edad_paciente": 35
+    },
+    {
+      "id_cita": "C006",
+      "fecha_cita": "2025-05-25",
+      "especialidad": "Odontología",
+      "tipo_atencion": "Control",
+      "rut_profesional": "44444444-4",
+      "nombre_profesional": "Dra. Patricia Morales",
+      "estado_cita": "Agendada",
+      "rut_paciente": "50678901-3",
+      "nombre_paciente": "Carmen Jiménez",
+      "edad_paciente": 65
+    },
+    {
+      "id_cita": "C013",
+      "fecha_cita": "2025-05-29",
+      "especialidad": "Cardiología",
+      "tipo_atencion": "Control",
+      "rut_profesional": "22222222-2",
+      "nombre_profesional": "Dr. Roberto Silva",
+      "estado_cita": "Confirmada",
+      "rut_paciente": "23456109-0",
+      "nombre_paciente": "Gonzalo Reyes",
+      "edad_paciente": 60
+    }
+  ]

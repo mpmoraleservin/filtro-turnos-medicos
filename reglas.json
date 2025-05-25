@@ -1,0 +1,54 @@
+[
+  {
+    "description": "Pacientes de cardiología por primera vez: mensaje 2 días antes",
+    "type": "include",
+    "especialidad": "cardiología",
+    "tipo_atencion": "primera consulta",
+    "dias_antes_contacto_exacto": "2"
+  },
+  {
+    "description": "Niños de pediatría (controles) con cita agendada: contacto 3 días antes",
+    "type": "include",
+    "especialidad": "pediatría",
+    "tipo_atencion": "control",
+    "estado_cita": "agendada",
+    "edad_paciente_max": "17",
+    "dias_antes_contacto_exacto": "3"
+  },
+  {
+    "description": "Excluir pacientes del Dr. Martínez de tercera edad",
+    "type": "exclude",
+    "profesional_rut_es": "11111111-1",
+    "edad_paciente_min": "65"
+  },
+  {
+    "description": "La Dra. Gómez no quiere que contactemos a sus pacientes bajo ninguna circunstancia",
+    "type": "exclude",
+    "profesional_rut_es": "15678432-9"
+  },
+  {
+    "description": "Cardiología: mensaje 5 días antes (primeras y controles)",
+    "type": "include",
+    "especialidad": "cardiología",
+    "dias_antes_contacto_exacto": "5"
+  },
+  {
+    "description": "Traumatología: mensaje el mismo día de la cita",
+    "type": "include",
+    "especialidad": "traumatología",
+    "dias_antes_contacto_exacto": "0"
+  },
+  {
+    "description": "Excluir pacientes de gastroenterología en lista de espera",
+    "type": "exclude",
+    "especialidad": "gastroenterología",
+    "estado_cita": "lista de espera"
+  },
+  {
+    "description": "Adultos mayores de odontología: contacto 1 día antes",
+    "type": "include",
+    "especialidad": "odontología",
+    "edad_paciente_min": "60",
+    "dias_antes_contacto_exacto": "1"
+  }
+]
